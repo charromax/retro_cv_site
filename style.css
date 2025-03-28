@@ -20,3 +20,10 @@ h1, h2, h3 {
     border-bottom: 1px solid #00FF00;
     padding-bottom: 0.2em;
 }
+.skills-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    font-family: 'Courier New', monospace;
+    white-space: pre;
+}
