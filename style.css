@@ -128,13 +128,13 @@ h1, h2 {
     font-size: 1.4rem;
 }
 
-@keyframes crt-flicker {
-    0%, 100% { opacity: 1; }
-    50% { opacity: 0.92; }
-    75% { opacity: 0.96; }
-    90% { opacity: 0.98; }
-  }
+@media (max-width: 768px) {
+    .dashboard-grid {
+      display: block;
+    }
   
-  .dashboard-grid {
-    animation: crt-flicker 1.4s infinite;
+    .dashboard-grid section {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
   }
